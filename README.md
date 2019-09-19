@@ -14,6 +14,8 @@ class and the `Author` and `Post` class. An artist should have many songs and a
 song should belong to an artist. An author should have many posts and a post
 should belong to an author.
 
+![Artist and Song](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/has-many-lab/Image_139_CodeObjectsRelations%28B%29.png)
+
 Because of the has many/belongs to relationship between your classes, the
 `Artist` tests, i.e. the tests in `spec/artist_spec.rb`, rely on some code in
 the `Song` class and vice versa. You will have to build out both the classes as
@@ -42,6 +44,8 @@ all instances of every song that's been created in an array. To access that
 array, the song class will also need a class method that returns the class
 variable holding those instances.
 
+![Author and Posts](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/has-many-lab/Image_139_CodeObjectsRelations%28C%29.png)
+
 How can an author have many posts and a post belong to an author? An individual
 post will need to hold a reference to the author it belongs to, meaning it will
 need to have an `author=()` and `author` method. And an individual author will
@@ -56,6 +60,8 @@ variable holding those instances.
 In order to have an artist find all of it's songs, the song class needs to know
 about all its song instances and a song instance needs to know about the artist
 class it belongs to.
+
+![](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/has-many-lab/Image_139_CodeObjectsRelations%28A%29.png)
 
 The same goes for an author and a post. To do this, you'll need to create a
 class variable that keeps track of all its post instances and a post instance

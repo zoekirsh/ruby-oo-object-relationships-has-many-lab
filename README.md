@@ -28,7 +28,7 @@ and switching to write code in the `Song` class as directed by the test output.
 Then, once your `Artist` and `Song` tests are passing, do the same for `Author`
 and `Post`.
 
-This lab is primarily test-driven. So run the test suite with the `learn`
+This lab is primarily test-driven. So run the test suite with the `learn test`
 command to get started. Read the test output very carefully to help guide you
 through. First, read through the guidelines below and refer back to them as you
 complete the lab.

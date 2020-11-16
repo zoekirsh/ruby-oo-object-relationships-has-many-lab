@@ -1,4 +1,4 @@
-# Ruby Objects Has Many Lab
+# Has Many Lab
 
 ## Objectives
 
